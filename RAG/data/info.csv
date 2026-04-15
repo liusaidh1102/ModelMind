@@ -1,0 +1,11 @@
+question,answer,source
+Python是不是简单易学呀,Python语法简洁清晰，非常适合新手入门，是最容易学习的编程语言之一,Python官方教程
+Python主要用来做什么,Python可用于Web开发、数据分析、人工智能、自动化测试、爬虫、游戏开发等多个领域,技术百科
+Python和Java有什么区别,Python语法简洁、开发效率高；Java运行速度快、适合大型企业项目,编程对比
+Python需要安装吗,需要，Python官网可下载安装包，Windows/macOS/Linux都支持,安装指南
+Python最常用的框架有哪些,Web框架：Django、Flask；AI框架：PyTorch、TensorFlow；自动化：Selenium,框架大全
+Python适合零基础学习吗,非常适合！语法接近自然语言，逻辑简单，是编程入门首选语言,学习建议
+Python可以做人工智能吗,是的，Python是人工智能、深度学习、大模型开发的第一语言,AI领域
+Python怎么运行代码,可以用命令行运行.py文件，也可以用PyCharm、VS Code等编辑器运行,使用方法
+Python支持多线程吗,支持，但由于GIL机制，多线程在CPU密集型任务中效率不高，推荐多进程,高级特性
+Python有哪些数据类型,常见数据类型：整数int、浮点数float、字符串str、列表list、字典dict、元组tuple、集合set,基础语法

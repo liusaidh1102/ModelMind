@@ -1,0 +1,1 @@
+github地址：https://github.com/modelscope/FunASR/blob/main/README_zh.md

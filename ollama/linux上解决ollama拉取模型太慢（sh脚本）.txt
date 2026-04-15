@@ -1,0 +1,22 @@
+#!/bin/bash
+
+while true; do
+    modelExists=$(ollama list | grep "qwen2.5vl:7b")
+    if [ -n "$modelExists" ]; then
+        echo "model is ready"
+        break
+    fi
+
+    echo "download..."
+    ollama run qwen2.5vl:7b &
+    process=$!
+
+    sleep 60
+
+    # 尝试终止进程
+    if kill -9 $process 2>/dev/null; then
+        echo "kill and restart..."
+    else
+        echo "error"
+    fi
+done
