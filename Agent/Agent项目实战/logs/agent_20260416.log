@@ -1,0 +1,13 @@
+2026-04-16 19:14:06,283 - agent - INFO - logger_handler.py:55 - 信息日志
+2026-04-16 19:14:06,283 - agent - ERROR - logger_handler.py:56 - 错误日志
+2026-04-16 19:14:06,283 - agent - WARNING - logger_handler.py:57 - 警告日志
+2026-04-16 19:14:06,283 - agent - DEBUG - logger_handler.py:58 - 调试日志
+2026-04-16 20:06:35,822 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-16 20:06:35,822 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-04-16 20:06:53,225 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-16 20:06:53,225 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人 推荐
+2026-04-16 20:06:54,966 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-16 20:06:54,966 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人选购指南'}
+2026-04-16 20:06:58,800 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-16 20:07:00,213 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-16 20:07:00,214 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人选购需关注吸力大小、电池续航、导航方式（如激光或视觉导航）、避障能力、是否支持APP控制及自动回充功能。同时考虑清扫模式（扫拖一体或仅扫地）、尘盒容量、噪音水平和适用面积。根据家庭地面类型（如木地板、瓷砖或地毯）选择合适机型，并优先考虑品牌售后与用户评价。
